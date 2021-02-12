@@ -21,7 +21,7 @@ node_modules
 .cache
 
 # Env vars
-.env.local
+.env
 
 # Apple stuff
 .DS_Store
