@@ -9,8 +9,8 @@
     "maintained node versions"
   ],
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "parcel src/index.html --out-dir docs",
+    "build": "parcel build src/index.html --out-dir docs --public-url ./"
   },
   "dependencies": {
     "config": "^3.3.3",
